@@ -1,0 +1,97 @@
+/*9*/
+section.botom{
+    background-color: #002147;
+    width: 100%;
+    min-height: 500px;
+    color: #ffff;
+    position: relative;
+ }
+ section.botom div.foo{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    place-content: center center;
+    gap: 50px;
+
+ }
+ section.botom div.foo div.top{
+   display: flex;
+   flex-wrap: wrap;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   grid-column: 1/4;
+   gap: 30PX;
+}
+ section.botom div.foo div.book{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    grid-column: 1/4;
+    
+    padding-top: 60px;
+
+ }
+ section.botom div.foo div.b {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-top: 80px;
+
+ }
+ section.botom div.bo{
+   font-size: large;
+   font-weight: bold;
+ }
+ section.botom a{
+   text-decoration: none;
+   color: #ffff;
+   display: flex;
+   align-items: center;
+   justify-content: start;
+   gap: 10PX;
+   flex-direction: row;
+ }
+ section.botom a P{
+   padding-bottom: 12PX;
+ }
+ section.botom div.bofoo{
+   background-color: #FDC800;
+   position: relative;
+   color: black;
+   bottom: 0;
+   width: 70%;
+   margin: 0 auto;
+   min-height: 100px;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+   align-content: stretch;
+   justify-content: space-between;
+ }
+ section.botom div.bofoo div.boo2{
+   display: flex;
+   gap: 10px;
+   color: black;
+ }
+ section.botom div.bofoo div.boo2 a{
+   color: black;
+ }
+ @media (max-width:570px) {
+  section.botom{
+    font-size: xx-small;
+    
+  }
+  section.botom div.b{
+    order: 5;
+  }
+  section.botom div.foo{
+    grid-template-columns: repeat(1,1fr);
+  }
+  section.botom div.bofoo{
+    text-align: center;
+  }
+ }

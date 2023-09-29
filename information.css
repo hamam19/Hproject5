@@ -1,0 +1,54 @@
+/*1*/
+section.information{
+    background-color: #FDC800;
+    width: 100%;
+    min-height: 50px;
+    display: flex;
+
+}
+section.information div.info{
+    display: flex;
+    gap: 600px;
+    flex-direction: row;
+    align-items: baseline;
+    width: 100%;
+}
+section.information div.info div{
+    display: flex;
+    padding-top: 2px;
+    gap: 20px;
+    justify-content: center;
+    
+    align-items: baseline;
+}
+section.information div.info div p{
+    font-size: xx-small;
+}
+a{
+    color: black;
+    text-decoration: none;
+    transition: .5s;
+}
+button{
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    transition: .5s;
+    
+}
+button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+@media (max-width:1400px) {
+    section.information div.info{
+        display: none;
+    }
+}
+a:hover{
+    text-decoration: underline;
+    transform: translatey(-10px);
+
+}
+

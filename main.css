@@ -1,0 +1,44 @@
+/*3*/
+main{
+    width: 100%;
+    min-height: 550px;
+    background-color: #F0F4F9;
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+main div.main{
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 290px;
+    padding-bottom: 50px;
+
+}
+main div.lmain{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+main div.lmain h4{
+    color: #002147;
+    font-size: larger;
+}
+main div.lmain p{
+    color: #002147;
+    font-size: 30px;
+}
+main div.lmain a.a{
+    text-decoration: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 150px;
+    padding: 10px;
+    background-color:#ffffff ;
+    color: #000;
+    
+}

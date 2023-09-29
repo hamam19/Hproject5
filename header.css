@@ -1,0 +1,100 @@
+ /*2*/
+header div.header .fa-bars{
+    cursor: pointer;
+    display: none;
+
+
+}
+header div.header .fa-bars:hover + nav{
+display: grid;
+position: absolute;
+top: 15vh;
+left: 26%;
+background-color: #FDC800;
+padding: 10px;
+justify-content: center;
+gap: 15px;
+width: 50%;
+border-radius: 15px;
+z-index: 3;
+
+}
+
+
+
+
+
+    
+@media (max-width:1400px) {
+    header div.header div.book p {
+        display: none;
+    }
+    header div.header nav{
+        display: none;
+    }
+    header div.header .fa-bars {
+        display: block;
+    }
+    main div.lmain{
+        order: 1;
+    }
+
+}    
+
+header{
+    width: 100%;
+    min-height: 80px;
+    background-color: #F0F4F9;
+    
+}
+div.header{
+    padding-top:15px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-content: center;
+}
+nav{
+    display: flex;
+    gap: 20px;
+    padding-left: 300px;
+}
+header div.book{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+nav a{
+    text-decoration: none;
+    color: #002147;
+}
+a.yal{
+text-decoration: none;
+background-color: #FDC800;
+border-radius: 5px;
+height: 30px;
+width: 150px;
+padding: 10px;
+color: #000;
+}
+nav a{
+    text-decoration: none;
+    
+    border-radius: 5px;
+    
+    
+    padding: 10px;
+    color: #000;
+}
+nav a:hover{
+    text-decoration: none;
+    background-color: #FDC800;
+    
+    color: #000;
+}
+header div.ser a:hover{
+    text-decoration: none;
+    color: #002147;
+    background-color: #FFFFFF;
+
+}

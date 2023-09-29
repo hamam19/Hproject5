@@ -1,0 +1,148 @@
+@import'./compons/information.css';
+@import'./compons/header.css';
+@import'./compons/feedback.css';
+@import'./compons/update.css';
+@import'./compons/botom.css';
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.content{
+padding: 0 15%;
+}
+/*3*/
+main{
+    background-color: #F0F4F9;
+    width: 100%;
+    min-height: 500px;
+    position: relative;
+    
+}
+main div.main{
+    padding-top: 80 px;
+    display: flex;
+    flex-direction: column;
+    gap: 30PX;
+    flex-wrap: wrap;
+}
+main div.main p{
+    color:#FDC800;
+    text-align: start;
+}
+main div.main h1{
+    font-size: 50px;
+    color: #002147;
+}
+/*4*/
+section.img{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    top: 60%;
+
+}
+section.img div.img{
+    width: 70%;
+}
+section.img div.img img{
+    width: 100%;
+}
+section.img div.input{
+    width: 25%;
+    border-radius: 20px;
+    border:2px solid #BDBDBD;
+}
+section.img div.input {
+    background-color: #ffffff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+section.img div.input div.top div{
+    display: flex;
+    gap: 8px;
+    padding: 4px;
+    align-items: baseline
+    
+}
+section.img div.input div.top div p{
+    color: #212529;
+    font-size: medium;
+    opacity: .8;
+}
+hr{
+    opacity: .5;
+}
+section.img div.input div.img img{
+    width:80%;
+    
+    
+}
+section.img div.input div.x1{
+    text-align: center;
+}
+section.img div.input div.email {
+    opacity: .4;
+    font-size: small;
+    text-align: center;
+
+}
+section.img div.input div.email span{
+    color: #00B2B2;
+}
+@media (max-width:1200px) {
+    
+    section.img div.img img{
+        display: none;
+    }
+    section.img div.input{
+        display: inline-block;
+        width: 100%;
+        margin-top: 100px;
+    }
+}
+
+/*5*/
+section.dec{
+   margin-top: 300px; /**/
+}
+section.dec div.dec{
+    width: 75%;
+    
+}
+section.dec div.dec h3{
+    margin: 25px 0; 
+    color: #002147;
+
+}
+section.dec div.dec p{
+    font-size: small;
+    opacity: .7;
+}
+section.dec div.dec ul{
+    list-style-image: url(../img/Component\ 28\ –\ 4.png);
+}
+section.dec div.dec li{
+    font-size: small;
+    opacity: .7;
+    margin-left: 30px;
+    
+}
+section.dec div.dec span{
+    font-size: small;
+    opacity: 1;
+    color: #000000;
+    font-weight: bold;
+    font-size: large;
+    
+}

@@ -1,0 +1,92 @@
+/*5*/
+section.boxes{
+    width:100% ;
+    min-height: 800px;
+    margin: 50px auto;
+    
+
+}
+section.boxes div.box div.top-box{
+    text-align: center;
+    color: #002147;
+}
+section.boxes div.bu-box{
+    width: 100%;
+    min-height: 700px;
+    display: grid;
+    margin-top: 100px;
+    gap: 20px;
+    
+    
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    
+
+}
+section.boxes div.bu-box div.b{
+    border-radius: 15px;
+    background-color: #ffffff;
+    border: 1px solid #BDBDBD;
+    width: 100%;
+}
+section.boxes div.bu-box div.b div.bubo h3{
+    padding: 10px;
+
+}
+section.boxes div.bu-box div.b div.bubo p{
+    padding: 10px;
+}
+
+
+section.boxes div.b div.topb{
+    position: relative;
+
+}
+section.boxes div.b div.topb img.a1{
+    width: 100%;
+}
+section.boxes div.b div.topb img.a{
+    position: absolute;
+    bottom: -10%;
+    left:20px;
+
+
+
+}
+section.boxes div.bubo{
+    margin-top: 50px;
+
+}
+section.boxes div.bubo p{
+    opacity: .4;
+}
+section.boxes div.b{
+    border-radius: 15px;
+}
+@media (min-width:992px) and (max-width:1400px) {
+    section.boxes div.bu-box{
+        
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+
+        
+
+@media (min-width:485px) and (max-width:992px) {
+ 
+    section.boxes div.bu-box{
+        
+        grid-template-columns: repeat(1,1fr);
+        
+}
+}
+
+@media (max-width:485px) {
+ 
+    section.boxes div.bu-box{
+        
+        grid-template-columns: repeat(1,1fr);
+        
+}
+}

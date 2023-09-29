@@ -1,0 +1,79 @@
+/*6 */
+section.feedback{
+    margin-top: 100px;
+    
+}
+section.feedback div.succ{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+section.feedback div.succ div.succl{
+    margin-bottom: 100px;
+}
+section.feedback div.succ div.succl div.succl1{
+    position: relative;
+}
+section.feedback div.succ div.succl div.succl1 img.rel{
+    width: 100%;
+}
+section.feedback div.succ div.succl div.succl1 img.aps{
+    position: absolute;
+    top: -10%;
+    left: -10%;
+}
+section.feedback div.succ div.succl div.img{
+    width: 150px;
+    height: 50px;
+    padding-top: 5px;
+    position: absolute;
+    left: 50%;
+    bottom: -5%;
+    transform: translate(-50%,0%);
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+section.feedback div.succ div.succl div.img h5,p{
+    text-align: center;
+    padding-top: 16px;
+}
+section.feedback div.succ div.succl div.img p{
+    opacity: .5;
+}
+section.feedback div.succ div.succr{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+section.feedback div.succ div.succr h1{
+    font-size: xx-large;
+}
+section.feedback div.succ div.succr span{
+    font-size: xx-large;
+    color: #FDC800;
+}
+section.feedback div.succ div.succr p.op{
+    opacity: .5;
+}
+section.feedback div.succ div.succr div.boxx{
+    display: flex;
+    flex-direction: row;
+    background-color: #F0F4F9;
+    border-radius: 15px;
+    padding: 5px;
+    gap: 15px;
+
+}
+section.feedback div.succ div.succr div.boxx img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+ @media (max-width:675px) {
+    section.feedback div.succ{
+        grid-template-columns: repeat(1,1fr);
+    }
+ }

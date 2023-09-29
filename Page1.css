@@ -1,0 +1,24 @@
+@import'./compons/information.css';
+@import'./compons/header.css';
+@import'./compons/main.css';
+@import'./compons/python.css';
+@import'./compons/boxes.css';
+@import'./compons/feedback.css';
+@import'./compons/people.css';
+@import'./compons/update.css';
+@import'./compons/botom.css';
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.content{
+padding: 0 15%;
+}

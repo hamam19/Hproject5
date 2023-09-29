@@ -1,0 +1,66 @@
+ /*4*/ 
+
+ section.python{
+    width: 100%;
+    min-height: 300px;
+}
+div.co{
+    background-color: #002147;
+    border-radius: 10px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 0;
+    margin-top: -150px;
+
+}
+div.co div.img{
+    position: relative;
+}
+div.co div.img img.x{
+    position: absolute;
+    bottom: 30%;
+    right: -70%;
+
+}
+div.co div.Python{
+    padding-right: 50px;
+}
+div.co div.Python h3{
+    font-size: x-large;
+    color: #ffffff;
+}
+div.co div.Python span{
+color: #FDC800;
+}
+div.co div.num{
+    display: flex;
+    color: white;
+    font-size: x-large;
+    gap: 15px;
+}
+div.co div.num p{
+    font-size: xx-small;
+}
+a .fa-up-long{
+    color:#002147 ;
+    display: inline-block;
+    font-size: large;
+    position: fixed;
+    bottom: 10px;
+    left: 20px;
+
+}
+@media (max-width:576px) {
+    div.img{
+        display: none;
+    }
+    div.co{
+        margin-top: -120px;
+    }
+}
